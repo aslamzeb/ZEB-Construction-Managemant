@@ -16,3 +16,23 @@
   display: block;
   margin-bottom: 18px;
 }
+/* Strict logo size correction */
+img.login-logo {
+  display: block !important;
+  width: 90px !important;
+  height: 90px !important;
+  max-width: 90px !important;
+  max-height: 90px !important;
+  object-fit: contain !important;
+  margin: 0 auto 18px 0 !important;
+}
+
+img.brand-logo {
+  display: block !important;
+  width: 42px !important;
+  height: 42px !important;
+  max-width: 42px !important;
+  max-height: 42px !important;
+  object-fit: contain !important;
+  flex-shrink: 0 !important;
+}
